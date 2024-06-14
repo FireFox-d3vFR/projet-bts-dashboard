@@ -1,0 +1,32 @@
+/** Styles personnalisés **/
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(20, 199, 134, 1) 0%, rgba(86, 255, 168, 1) 100%);
+}
+
+.card i {
+    color: #20c997;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.btn-outline-primary {
+    border-color: #20c997;
+    color: #20c997;
+}
+
+.btn-outline-primary:hover {
+    background-color: #20c997;
+    color: white;
+}
