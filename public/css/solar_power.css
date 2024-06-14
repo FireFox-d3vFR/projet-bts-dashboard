@@ -1,0 +1,54 @@
+/* Main title styles */
+.main-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Status circle styles */
+.status-circle {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Card styles */
+.card {
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Grey box styles */
+.grey-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.data-item {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.data-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.data-value {
+    color: #007bff; /* Couleur du texte pour les valeurs */
+}
